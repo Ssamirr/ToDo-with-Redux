@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteItem, update } from '../redux/actions/toDoActionsCreator';
-import { Button, Modal } from 'antd';
+import { Modal } from 'antd';
 
 function ToDoList() {
 
